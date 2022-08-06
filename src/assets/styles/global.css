@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'monument';
+    src: url('../fonts/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+    font-family: 'monument-bold';
+    src: url('../fonts/MonumentExtended-Ultrabold.otf');
+}
+
+@font-face {
+    font-family: 'chicago';
+    src: url('../fonts/Chicago.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #fff;
+    background-color: #000;
+}
